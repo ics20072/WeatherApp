@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="../img/weather.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script defer src="../js/app.js"></script>
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+        <p>Use this site to get your weather!</p>
+        <form>
+            <input placeholder="Location...">
+            <button>Search</button>
+        </form>
+        <img id="image-weather" alt="Weather image loaded from the weatherstack api"> 
+        <h3 id="message-1"></h3>
+        <p id="message-2"></p>
+    </div>
+    {{>footer}}
+</body>
+</html>

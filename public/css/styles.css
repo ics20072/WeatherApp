@@ -37,10 +37,6 @@ header a {
   text-decoration: none;
 }
 
-.portrait {
-  width: 250px;
-}
-
 input {
   border: 1px solid #cccccc;
   padding: 8px;
@@ -66,4 +62,16 @@ button:hover {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li > a:hover {
+  color: red;
+}
+
+p > a:hover {
+  color: red;
 }

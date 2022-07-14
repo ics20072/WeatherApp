@@ -29,7 +29,7 @@ app.get("", function (req, res) {
 
 app.get("/about", function (req, res) {
   res.render("about", {
-    title: "About Me",
+    title: "About",
     name: "Minas - Theodoros Charakopoulos",
   });
 });
@@ -37,7 +37,6 @@ app.get("/about", function (req, res) {
 app.get("/help", function (req, res) {
   res.render("help", {
     title: "Help",
-    helpText: "This is a helpful text!",
     name: "Minas - Theodoros Charakopoulos",
   });
 });

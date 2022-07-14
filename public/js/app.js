@@ -31,12 +31,12 @@ const loadWeatherData = function (apiURL) {
 addressForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   const location = searchElement.value;
-  loadWeatherData(`http://localhost:3000/weather?address=${location}`);
+  loadWeatherData(`/weather?address=${location}`);
 });
 
 (function () {
   if (navigator.geolocation)
     navigator.geolocation.getCurrentPosition(function (position) {
-      loadWeatherData(`http://localhost:3000/current-weather?latitude=${position?.coords?.latitude}&longitude=${position?.coords?.longitude}`);
+      loadWeatherData(`/current-weather?latitude=${position?.coords?.latitude}&longitude=${position?.coords?.longitude}`);
     });
 })();

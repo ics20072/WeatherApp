@@ -20,7 +20,7 @@
 ```
  git clone https://github.com/ics20072/WeatherApp
  Import WeatherApp folder to vscode
- cd WeatherApp
+ Confirm you are on "WeatherApp" directory
  npm install
  npm run start || npm run dev
  visit in browser http://localhost:3000

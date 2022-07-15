@@ -10,8 +10,8 @@
 <li><b>Nodemon</b></li>
 <li><b>Geolocation API</b></li>
 <li><b>Fetch API</b></li>
-<li><b>Weatherstack API</b> for the weather data. <i>250 Calls / mo for free subscription plan.</i><a href="https://weatherstack.com" target="_blank"> API info<a></li>
-<li><b>Weatherstack API</b> for the location data. <i>25.000 Requests for free subscription plan.<a href="https://positionstack.com" target="_blank"> API info<a></i></li>
+<li><b>Weatherstack API</b> for the weather data. <i>250 Calls / mo for free subscription plan.</i><a href="https://weatherstack.com"> API info<a></li>
+<li><b>Weatherstack API</b> for the location data. <i>25.000 Requests for free subscription plan.</i><a href="https://positionstack.com"> API info<a></li>
 </ul>
 
 <h4>!Maybe weather service not availabe because the limit of requests offered by the free APIs was exceeded!</h4>
